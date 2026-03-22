@@ -1,0 +1,51 @@
+GUIA DE CLONACION Y SUBIDA DE REPOSITORIOS MEDIANTE BASH
+
+---
+
+### 1. Seguridad y Conexión (SSH)
+Para interactuar con GitHub sin contraseñas, configuramos tu identidad digital:
+
+* **Generar la llave:** `ssh-keygen -t ed25519 -C "GeekTechHub"`
+* **Ver la llave pública:** `cat ~/.ssh/id_ed25519.pub` (Esto es lo que pegaste en GitHub Settings).
+* **Probar conexión:** `ssh -T git@github.com`
+
+---
+
+### 2. Clonación y Migración de Repositorios
+Para mover el contenido de un tercero (`fulano`) a tu propia cuenta manteniendo el control:
+
+* **Clonar original:** `git clone https://github.com/user/REPONAME.git`
+* **Cambiar el origen a tu SSH:**
+    ```bash
+    git remote set-url origin git@github.com:USER/REPONAME.git
+    ```
+* **Subir a tu cuenta:** `git push -u origin main`
+
+---
+
+### 3. Fusión de Repositorios (Repo dentro de otro)
+Para insertar tu repositorio de `REPONAME` como una carpeta dentro de `NEWREPO` sin perder el historial:
+
+* **Añadir el repo de redes como fuente:**
+    ```bash
+    git remote add fuente_redes git@github.com:USER/REPONAME.git
+    ```
+* **Insertar como subcarpeta (Subtree):**
+    ```bash
+    git subtree add --prefix=REPONAME fuente_REPONAME main --squash
+    ```
+* **Sincronizar cambios finales:** `git push origin main`
+
+---
+
+### Glosario Rápido de Comandos Utilizados
+| Comando            | Función |
+| :---               | :--- |
+| `git remote -v`    | Verifica a qué repositorios (URLs) está conectado tu PC. |
+| `git push`         | Sube tus cambios locales a la nube de GitHub. |
+| `--prefix=nombre`  | Indica el nombre de la carpeta donde se guardará el repo insertado. |
+| `--squash`         | Une todos los commits antiguos en uno solo para mantener limpio el historial. |
+
+---
+
+izar la carpeta de redes con un solo comando en el futuro?
