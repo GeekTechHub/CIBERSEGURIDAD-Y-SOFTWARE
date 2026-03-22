@@ -1,0 +1,44 @@
+CISCO IOS: nombre del sistema operativo de los equipos de red de Cisco modos de operacion/configuracion principales en Cisco IOS:
+
+usuario
+
+simbolo-representacion: >
+
+comando: N/A
+
+privilegiado
+
+simbolo-representacion: #
+
+comando: enable
+
+abreviatura: en
+
+configuracion global
+
+simbolo-representacion: (config)#
+
+comando: configure terminal
+
+abreviatura: conf t
+
+configuracion de interfaz
+
+simbolo-representacion: (config-if)#
+
+comando: interface nombre-interfaz
+
+abreviatura: int nombre-abreviado
+
+configuracion de linea
+
+simbolo-representacion: (config-line)
+
+comando: line nombre-linea id-linea
+
+abreviatura: li nombre-abreviado id-linea
+
+📌 Notas Adicionales
+Nota1: cada modo de operacion, tiene un grupo de comandos que solo se pueden ejecutar dentro de dicho modo.
+
+nota2: para salir de un modo y volver al modo anterior, usamos el comando "exit", y para salir de un modo e ir directamente al modo privilegiado, usamos el comando "end".

@@ -1,0 +1,17 @@
+direcciones ipv4 por dhcp =
+
+vlsm = variable lenght subnet mask (mascara de subred de longitud variable)
+
+paso 1. identificar las propiedades de la direccion ipv4 por defecto 198.0.2.0 /24 (255.255.255.0) = 256 direcciones ipv4
+
+paso 2. identificar la necesidad de las red actual equipos necesarios: 30
+
+paso 3. modificar la mascara de subred, para ajustarla a las necesidades reales
+
+paso 4. convertir la porcion de la mascara
+
+tomar la porcion de la mascara de subred que se puede modificar .0
+
+convertir la porcion de la mascara de subred en binario 00000000
+
+encender los bits necesarios hasta que la mascara se ajuste al requerimiento 00000000

@@ -1,0 +1,16 @@
+Comandos para agregar direccion ip en un a interface de red del router:
+
+int "nombre-interface"
+desc "interface gigabitethernet0/0" 
+ip add "ip submask"
+no shut
+exit
+
+example:
+
+int g0/0 
+desc : red interface of LAN
+ip add 10.0.0.1 255.255.255.0
+mo shut
+exit
+
