@@ -1,3 +1,5 @@
+````markdown
+
 Aquí tienes algunos **links oficiales y confiables** para descargar imágenes ISO de los sistemas que mencionaste — Kali Linux, Ubuntu (o Ubuntu Server) y el sistema de macOS — desde sus fuentes legítimas:
 
 ## ✅ Enlaces oficiales para descargas ISO / imágenes
