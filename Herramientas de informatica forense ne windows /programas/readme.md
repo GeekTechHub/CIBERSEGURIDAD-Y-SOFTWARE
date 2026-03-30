@@ -1,4 +1,4 @@
-1 Registros de eventos - Se abre normalmente wind + R escribiendo EVENTVWR.MSC  en el cuadro de búsqueda o en la ventana de Ejecutar.
+# 1 Registros de eventos - Se abre normalmente wind + R escribiendo EVENTVWR.MSC  en el cuadro de búsqueda o en la ventana de Ejecutar.
 
 El Visor de eventos de Windows sirve para registrar y mostrar toda la actividad relevante del 
 sistema operativo, aplicaciones y seguridad, permitiendo a administradores y analistas revisar 
@@ -7,9 +7,11 @@ inicios de sesión, errores, advertencias, procesos ejecutados y cambios importa
 cualquier comportamiento sospechoso, convirtiéndose en una herramienta clave para el diagnóstico, la 
 auditoría y el análisis forense de un equipo.
 
-2 firewall - se abre buscando en la barra de tareas   , con el puedo abrri y cerrar o asignarle una funcion especifica a un  puerto. 
+# 2 firewall - 
+se abre buscando en la barra de tareas / con el puedo abrri y cerrar o asignarle una funcion especifica a un  puerto. 
 
-link de video de abrir purtos : 	https://www.youtube.com/watch?v=QKsrYCzCzCg
+# link de video de abrir purtos : 	
+https://www.youtube.com/watch?v=QKsrYCzCzCg
 
 	Filtrado de tráfico de red: Examina los datos que entran y salen de tu PC y decide si permitirlos o bloquearlos según reglas de seguridad.
 • 	Protección contra intrusiones: Evita que hackers o programas maliciosos accedan a tu sistema desde Internet o redes locales.
@@ -18,9 +20,10 @@ link de video de abrir purtos : 	https://www.youtube.com/watch?v=QKsrYCzCzCg
 • 	Perfiles de red: Ajusta la seguridad dependiendo de si estás en una red pública, privada o de dominio.
 
 
-3 Panel de contro 
+# 3 Panel de contro 
 
-video de como activar y desactivar el firewall ataravez del panel de control https://www.youtube.com/watch?v=1t7iUiT2wGo
+# video de como activar y desactivar el firewall ataravez del panel de control 
+https://www.youtube.com/watch?v=1t7iUiT2wGo
 
  Funciones principales del Panel de Control
 • 	Hardware y dispositivos: Instalar impresoras, configurar mouse, teclado, pantallas y otros periféricos.
