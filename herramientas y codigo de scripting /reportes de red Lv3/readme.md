@@ -42,4 +42,4 @@ Seguridad del Servidor: En el fingerprinting, la presencia de versiones específ
 Análisis de Saltos (Traceroute): Los saltos que muestran asteriscos (* * *) indican nodos que descartan paquetes de diagnóstico para evitar el mapeo de red. Los saltos finales revelan la "puerta de entrada" del centro de datos donde se aloja el objetivo, lo cual es fundamental para emitir citaciones legales o solicitudes de información al proveedor de infraestructura.
 
 ---
-Documentación de Nivel Senior para SecurityServ Ops.
+Documentación de Security.Serv.
