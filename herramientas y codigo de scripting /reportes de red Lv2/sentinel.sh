@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# --- COLORES DE INTERFAZ ELITE ---
+# --- COLORES DE LA INTERFAZ ---
 RED='\033[1;31m'
 GREEN='\033[1;32m'
 CYAN='\033[1;36m'
